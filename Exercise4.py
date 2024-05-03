@@ -1,5 +1,5 @@
 
-#change type of number to int.
+#change type from string to int.
 def ChangeStrToInt(lst):
     i=0
     for x in lst:
