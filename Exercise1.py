@@ -10,12 +10,13 @@ elif  len(my_lst) == 3:
     my_lst.pop(0)
 else: 
     print("The number of list is less than 3!")
-print(list(map(int, my_lst)))
+print(f"The new list is {list(map(int, my_lst))}")
 """
 try:
+    print(f"my_list = {list(map(int, my_lst))}")
     if len(my_lst) >= 3:
         new_list = [j for i, j in enumerate(my_lst) if i not in [0, 2, 3]]
-        print(list(map(int, new_list)))
+        print(f"The new list is {list(map(int, new_list))}")
     else:
         print("The number of list is less than 3!")
 except ValueError:
